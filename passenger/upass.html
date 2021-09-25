@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="passenger.css">
+
+</head>
+<body>
+    
+  <img class="tr" src="tr.jpg" alt="">
+    <div class="container">
+        <h1> Welcome!</h1>
+        <p>Enter The Passenger Id to update</p>
+     <form action="upass.php" method="POST">
+        
+        
+        <input type="number" name="p_id2" id="p_id2" placeholder="Enter Passenger ID">
+        
+        
+        
+        <div class="option">
+            <select name="column"> <br>
+                <option value="f_name">First Name</option>
+                <option value="m_name">Middle Name</option>
+                <option value="last_name">Last Name</option>
+                <option value="age">Age</option>
+                <option value="phone">Phone Number</option>
+                
+                <option value="gender">Gender</option>
+            </select><br>
+        </div>
+      
+        <input type="number" name="op" id="op" placeholder="Enter the value">
+         
+     
+
+       
+    <button class="btn">Submit</button>
+    
+    </form>
+    </div>
+    
+</body>
+</html>

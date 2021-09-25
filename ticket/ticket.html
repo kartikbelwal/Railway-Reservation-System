@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ticket.css">
+
+</head>
+<body>
+  <img class="tr" src="tr.jpg" alt="">
+    <div class="container">
+        <h1> Welcome!</h1>
+        <p>Enter the details of the Ticket</p>
+     <form action="ticket.php" method="post">
+        
+        <input type="number" name="pnr" id="pnr" placeholder="Enter PNR Number">
+        
+        <input type="date" name="date_of_travel" id=" date_of_travel" placeholder="Enter The Date Of Travel">
+        
+        <input type="text" name="coach" id="coach" placeholder="Enter Coach">
+        
+        <input type="text" name="seat" id="seat" placeholder="Enter Seat Number">
+
+        <input type="number" name="t_no" id="t_no" placeholder="Enter Train Number"> 
+       
+    <button class="btn">Submit</button>
+    
+    </form>
+    </div>
+    
+</body>
+</html>

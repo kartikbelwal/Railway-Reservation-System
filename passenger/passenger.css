@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+font-family: 'New Tegomin', serif;
+}
+
+.container{
+    max-width: 80%;
+
+    padding: 34px;
+    margin: auto;
+    
+} 
+.container h1,p{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+input,textarea
+{
+    
+    font-size: 20px;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn
+{
+ color: white;
+ background: cyan;   
+ padding: 23px 10px;
+  border: 8px rgb(128, 0, 6);
+ border-radius: 10px;
+ padding: 10px 10px;
+ cursor: pointer;
+ font-size: 20px; 
+}
+
+ .tr{
+   width: 100%;
+    position: absolute;
+    z-index: -1;
+} 

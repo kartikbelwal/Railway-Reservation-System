@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="station.css">
+
+</head>
+<body>
+    
+  <img class="tr" src="tr.jpg" alt="">
+    <div class="container">
+        <h1> Welcome!</h1>
+        <p>Enter The Station Id in which update operation is to be performed</p>
+     <form action="ustat.php" method="POST">
+        
+        
+        <input type="text" name="s_no2" id="s_no2" placeholder="Enter Station ID">
+        
+        
+        
+        <div class="option">
+            <select name="column"> <br>
+                <option value="s_name">Station Name</option>
+                <option value="s_no">Station Number</option>
+               
+            </select><br>
+        </div>
+      
+        <input type="text" name="op" id="op" placeholder="Enter the value">
+         
+     
+
+       
+    <button class="btn">Submit</button>
+    
+    </form>
+    </div>
+    
+</body>
+</html>

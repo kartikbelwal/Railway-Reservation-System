@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+font-family: 'New Tegomin', serif;
+}
+
+.container{
+    max-width: 80%;
+ 
+    padding: 34px;
+    margin: auto;
+    
+} 
+.container h1,p{
+    text-align: center;
+      background:lightblue;  
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+
+.btn1
+{
+    margin: 60px 20px 30px;
+    color: rgb(15, 217, 231);
+    background: rgb(126, 3, 89);
+    padding: 30px 20px;
+    border: 100px rgb(2, 0, 0);
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.btn2
+{
+    margin: 60px 20px 30px;
+    color: rgb(15, 217, 231);
+    background: rgb(126, 3, 89);
+    padding: 30px 20px;
+    border: 100px rgb(2, 0, 0);
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 50px;
+}
+.btn3
+{
+    margin: 60px 20px 30px;
+    color: rgb(15, 217, 231);
+    background: rgb(126, 3, 89);
+    padding: 30px 20px;
+    border: 100px rgb(2, 0, 0);
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.btn4
+{
+    margin: 60px 20px 30px;
+    color: rgb(15, 217, 231);
+    background: rgb(126, 3, 89);
+    padding: 30px 20px;
+    border: 100px rgb(2, 0, 0);
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+
+ .tr{
+     
+   width: 100%;
+    position: absolute;
+    z-index: -1;
+} 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="station.css">
+
+</head>
+<body>
+  <img class="tr" src="tr.jpg" alt="">
+    <div class="container">
+        <h1> Welcome!</h1>
+        <p>Enter the details of the Station</p>
+     <form action="station.php" method="post">
+        
+        <input type="text" name="s_name" id="s_name" placeholder="Enter Station Name">
+        
+        <input type="text" name="s_no" id=" s_no" placeholder="Enter Station ID">
+        
+        <input type="time" name="arrival_time" id="arrival_time" placeholder="Enter Arrival Time">
+        
+        <input type="time" name="buffer_time" id="buffer_time" placeholder="Enter Buffer Time">
+
+        <input type="number" name="train_no" id="train_no" placeholder="Enter Train Number"> 
+       
+    <button class="btn">Submit</button>
+    
+    </form>
+    </div>
+    
+</body>
+</html>
